@@ -1,3 +1,12 @@
 @import "../_snowpack/pkg/tailwindcss/dist/base.css";
 @import "../_snowpack/pkg/tailwindcss/dist/components.css";
 @import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+
+#ola{
+    transition: all .2s ease-in-out;
+}
+
+#ola:hover{
+    transform: scale(1.1);
+}
